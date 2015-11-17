@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.swach.wecareapp.fragments.UserFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingTop="100dp"
+        android:gravity="center"
+        android:includeFontPadding="true"
+        android:textColor="@color/primary_dark"
+        android:fontFamily="Adobe Gothic std B"
+        android:text="Verify"
+        android:textSize="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/Search"
+        android:gravity="center"
+        android:textColorHint="#727272" />
+
+    <Button
+        android:id="@+id/bSearch"
+        android:background="#359c5e"
+        android:text="Search"
+        android:gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+
+
+
